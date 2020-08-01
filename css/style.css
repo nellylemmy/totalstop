@@ -1,0 +1,224 @@
+/* ---------------------------------------- */
+/* Global styles */
+/* ---------------------------------------- */
+
+html,
+body {
+  background-color: #f2f2f2;
+  height: 100%;
+  color: #160113;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.9045rem;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
+button:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-light .navbar-toggler:focus {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgb(0, 0, 0);
+  border-radius: 0 !important;
+}
+
+.navbar-light .navbar-toggler:active {
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-light .navbar-toggler:focus {
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1b1c1d;
+}
+
+.img-fluid {
+  height: 450px;
+}
+
+.carousel-inner{
+  background: url('../images/slides/siteimage1.png') no-repeat center center/cover;
+  height: 370px;
+  max-height: 90%;
+  opacity: 0.7
+}
+
+
+
+.bg-gray {
+  background-color: rgba(243, 243, 243, 0.87);
+  -webkit-box-shadow: 0px 0px 119px -6px rgba(243, 243, 243, 0.97);
+  -moz-box-shadow: 0px 0px 119px -6px rgba(243, 243, 243, 0.97);
+  box-shadow: 0px 0px 119px -6px rgba(243, 243, 243, 0.97);
+}
+
+.bdr {
+  -webkit-box-shadow: 1px 5px 33px -8px rgba(14, 2, 15, 1);
+  -moz-box-shadow: 1px 5px 33px -8px rgba(14, 2, 15, 1);
+  box-shadow: 1px 5px 33px -8px rgba(14, 2, 15, 1);
+  margin-top: 8vh;
+  border-radius: 5px;
+}
+
+.ui.four.doubling.cards > .card > :first-child,
+.btn > :first-child {
+  border-radius: 0.28571429rem 0.28571429rem 0em 0em !important;
+  border: 0 !important;
+}
+
+.ui.cards > .rewards {
+  margin: 0.475em 0.5em;
+}
+
+.doubling .card:hover {
+  background-color: #1b1c1d !important;
+}
+
+.doubling .card {
+  background-color: transparent !important;
+  border-radius: 1px 50px 5px !important;
+  border: rgba(122, 122, 122, 0.582) solid 0.04em !important;
+  box-shadow: 0 !important;
+}
+
+.doubling .card a {
+  background-color: transparent !important;
+  border-radius: 1px 50px 5px !important;
+  border: 1px solid red !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.rewards .btn {
+  border-radius: 1px 50px 5px;
+}
+
+.navbar {
+  background-color: rgb(187, 187, 187) !important;
+  border-bottom: rgba(122, 122, 122, 0.582) 0.03rem solid;
+}
+.nav-item a {
+  color: rgba(0, 0, 0, 0.84) !important;
+}
+.nav-item a:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #1b1c1d;
+  border-radius: 5px;
+}
+
+.about-us-img {
+  max-height: 50vh;
+}
+
+footer {
+  background-color: rgb(187, 187, 187) !important;
+  text-align: center;
+}
+.last {
+  background-color: black;
+  color: #fff;
+}
+.jumbotron {
+  -webkit-box-shadow: -6px 0px 0px 0px rgba(119, 147, 219, 1);
+  -moz-box-shadow: -6px 0px 0px 0px rgba(119, 147, 219, 1);
+  box-shadow: -6px 0px 0px 0px rgba(119, 147, 219, 1);
+  border-radius: 0 0 0 80px;
+}
+
+.bg-black .header {
+  color: #fff !important;
+}
+
+.message {
+  padding: 20px;
+  font-size: small;
+  border: rgba(122, 122, 122, 0.582) 0.03rem solid;
+}
+
+.abt-msg {
+  font-size: 0.9621rem !important;
+  font-weight: 100 !important;
+  line-height: 1.8;
+}
+
+.store-img {
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.bg-black .date {
+  color: rgb(173, 173, 173) !important;
+}
+
+.bg-black {
+  color: #fff !important;
+  background-color: #1b1c1d !important;
+}
+
+.text-black {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.three > .card > .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+/* ---------------------------------------- */
+/* styles for small screen devices */
+/* ---------------------------------------- */
+@media only screen and (max-device-width: 992px) {
+  .carousel {
+    max-height: 160px;
+    min-height: 160px;
+    height: 180px;
+    margin-top: 9vh;
+  }
+
+  .carousel img {
+    max-height: 160px;
+    min-height: 160px;
+    height: 180px;
+    margin-bottom: auto;
+  }
+
+  .jumbotron {
+    border-radius: 0;
+  }
+}
