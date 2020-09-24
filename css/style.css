@@ -198,6 +198,11 @@ footer {
   padding-bottom: 15px;
 }
 
+.brown > .image >img{
+  max-width: 340px !important;
+  height: 509px !important;
+}
+
 
 
 /* ---------------------------------------- */
@@ -221,4 +226,8 @@ footer {
   .jumbotron {
     border-radius: 0;
   }
+  .navbar-nav svg{
+    margin-left: 3% !important;
+  }
+  
 }
